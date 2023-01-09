@@ -6,19 +6,19 @@
   $ docker-compose up -d postgres
 ```
 
-## Check State
+### Check State
 
 ```docker
 $ docker-compose ps
 ```
 
-## Down Docker
+### Down Docker
 
 ```docker
   $ docker-compose down
 ```
 
-## Explore DB
+### Explore DB
 
 ```docker
   $ docker-compose exec postgres bash
@@ -47,4 +47,9 @@ $ docker-compose ps
 	title VARCHAR (255) NOT NULL,
 	completed boolean DEFAULT false
   );
+```
+
+## Connect Node-Postgres
+```
+  $ npm install pg
 ```
