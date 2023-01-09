@@ -58,3 +58,9 @@ $ docker-compose ps
 ```
   $ npm install dotenv
 ```
+
+## ORM (Object Relational Mapping)
+```
+  $ npm install --save sequelize
+  $ npm install --save pg pg-hstore
+```
