@@ -53,3 +53,8 @@ $ docker-compose ps
 ```
   $ npm install pg
 ```
+
+## Environment Variables
+```
+  $ npm install dotenv
+```
